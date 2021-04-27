@@ -1,0 +1,231 @@
+@charset "utf-8";
+/* Base Reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small,strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {margin: 0;padding: 0;}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {	display: block;}
+:focus { outline:0;}
+img { border:0;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {	quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {	content: '';	content: none;}
+table {	border-collapse: collapse;	border-spacing: 0;}
+.clear { width:100%; height:0; line-height:0; font-size:0; overflow:hidden; clear:both; display:block; _display:inline;}
+.none { display:none;}
+.hidden { visibility:hidden;}
+.clearfix:after{clear: both;content: ".";display: block;height: 0;visibility: hidden;}
+.clearfix{display: block; *zoom:1;}
+
+/**布局开始**/
+body {}
+body,p { font:12px/1 "微软雅黑"; color:#3b3b3b;}
+a { color:#3b3b3b; text-decoration:none;}
+a:hover { color:#cd0200;}
+
+#top{
+    height: 38px;background: #006761;
+}
+#top .con{width: 1000px;margin: 0 auto;}
+#top .con #wp_nav_w1{
+    width: 250px;
+    float: right;
+    margin-right: 55px;
+}
+#top .con #wp_nav_w1 .nav-item.i1 a{
+    background: url(images/list1_05.jpg) no-repeat left;
+}
+#top .con #wp_nav_w1 .nav-item.i2 a{
+    background: url(images/list2_05.jpg) no-repeat left;
+}
+#top .con #wp_nav_w1 .nav-item.i3 a{
+    background: url(images/3_05.jpg) no-repeat left;
+}
+#top .con #wp_nav_w1 .nav-item a{
+    font-size: 13px;
+    color: #fff;
+}
+#header{
+    height: 119px;background: #00948b;
+}
+#header .head{width: 1000px;margin: 0 auto;background: url(images/xmt-head.jpg) center center no-repeat;height: 119px;}
+.head .ss .ss-box{
+    width: 204px;
+    height: 31px;
+    float: right;
+    margin-top: 45px;
+    background: #4fb5af;
+    opacity: 0.9;
+}
+.head .ss .ss-box .wp_search .keyword{
+    width: 150px;
+    padding: 0;
+    height: 31px!important;
+    background: #4fb5af;
+    border: none;
+    color: #fff;
+    text-indent: 5px;
+    line-height: 31px;
+}
+.head .ss .ss-box .wp_search .search{
+    background: url(images/search_btn.gif) center center no-repeat;
+    width: 38px;
+    height: 31px;
+    border: 0px;
+    cursor: pointer;
+    margin-left: 16px;
+}
+#nav{
+    height: 51px;background: #f4e6b7;
+}
+#nav .navbar{width: 1000px;margin: 0 auto;}
+#nav .navbar .navbox{width: 1000px;margin: 0 auto;height: 51px;}
+#nav .navbar .navbox .wp_nav .nav-item{width: 19.9%;border-right: 1px solid #f8f0d2;}
+#nav .navbar .navbox .wp_nav .i5{border:none;}
+#nav .navbar .navbox .wp_nav .nav-item a{color: #484848;}
+#nav .navbar .navbox .wp_nav .nav-item a .item-name{
+    padding: 0;
+    line-height: 51px;
+    font-size: 16px
+}
+#nav-bottom{background: url(images/nav-bottom.gif) left center repeat-x; height: 4px;}
+#jumbotran{
+    width: 1000px;height: 316px;margin: 0 auto;
+    margin-top: 16px;
+}
+#jumbotran .jumbotran-box{}
+#container{
+
+}
+#container .mod-h1{width: 1000px;margin: 0 auto;}
+.mod-h1 .ml{width: 500px;float: left;}
+.post .tt{height: 62px;line-height: 62px;}
+.post .tt .tit{color: #006761;font-size: 21px;font-weight: normal;}
+.mod-h1 .ml .con{margin-top: 4px;}
+.mod-h1 .mr{width: 475px;float: left;margin-left: 25px;}
+.mr .tt{
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 2px solid #d7d7d7;
+}
+.mr .tt .tit{
+    width: 85px;
+    border-bottom: 2px solid #006761;
+}
+.mr .tt .tit .title a{color: #006761;}
+.mr .con{margin-top: 15px;}
+.mr .con .news_list li{background: url(images/icon.png) left center no-repeat;}
+.mr .con .news_list .news{
+    height: 27px;
+    line-height: 27px;
+}
+.mr .con .news_list .news .news_title{
+    font-size: 14px;
+    font-family: 宋体;
+    margin-left: 12px;
+}
+.mr .con .news_list .news .news_meta{
+    float: right;
+    color: #727272;
+    font-family: 宋体;
+    font-size: 14px;
+}
+.mod-h2{margin: 0 auto;width: 1000px;}
+.mod-h2 .pic-title{width: 1000px;height: 95px;background: url(images/jxzp.jpg) center center no-repeat;}
+.mod-h2 .con{height: 226px;width: 1000px;margin-bottom: 34px;position: relative;}
+.mod-h2 .con .news_list .i1{
+    width: 228px;
+    height: 76px;
+    position: absolute;
+    right: 0;
+    top: 150px;
+}
+.mod-h2 .con .news_list .i1 .slt a img{    
+    width: 228px;
+    height: 76px;
+}
+.mod-h2 .con .news_list .i2{
+    width: 228px;
+    height: 146px;
+    position: absolute;
+    right: 0;
+    top: 0px;
+}
+.mod-h2 .con .news_list .i2 .slt a img{    
+    width: 228px;
+    height: 146px;
+}
+.mod-h2 .con .news_list .i3{
+    width: 226px;
+    height: 263px;
+    position: absolute;
+    left: 505px;
+    top: 0px;
+}
+.mod-h2 .con .news_list .i3 .slt a img{    
+    width: 263px;
+    height: 226px;
+}
+.mod-h2 .con .news_list .i4{
+    width: 225px;
+    height: 76px;
+    position: absolute;
+    left: 273px;
+    top: 150px;
+}
+.mod-h2 .con .news_list .i4 .slt a img{    
+    width: 225px;
+    height: 76px;
+}
+.mod-h2 .con .news_list .i5{
+    width: 225px;
+    height: 146px;
+    position: absolute;
+    left: 273px;
+    top: 0px;
+}
+.mod-h2 .con .news_list .i5 .slt a img{    
+    width: 225px;
+    height: 146px;
+}
+.mod-h2 .con .news_list .i6{
+    width: 268px;
+    height: 112px;
+    position: absolute;
+    left: 0;
+    top: 114px;
+}
+.mod-h2 .con .news_list .i6 .slt a img{    
+    width: 268px;
+    height: 112px;
+}
+.mod-h2 .con .news_list .i7{
+    width: 268px;
+    height: 111px;
+    position: absolute;
+    left: 0;
+    top: 0px;
+}
+.mod-h2 .con .news_list .i7 .slt a img{    
+    width: 268px;
+    height: 111px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**页脚开始**/
+#foot {height: 41px;background: #424242;}
+#foot .foot{width: 1000px;margin: 0 auto;}
+#foot .foot p{color: #fff;line-height: 41px;text-align: center;}

@@ -1,0 +1,364 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>安徽大学新闻网</title>
+    <link href="style.css" type="text/css" rel="stylesheet" />
+    <script src="extends/extends.js" type="text/javascript"></script>
+
+    <link href="extends/extends.css" type="text/css" rel="stylesheet" />
+    <script>
+      $(function () {
+        $("#keyword").css({ width: 0, overflow: "hidden" });
+        $(".wp_search").hover(
+          function () {
+            $(".keyword", this)
+              .addClass("keyword-focus")
+              .stop()
+              .animate({ width: 140 });
+            var key = $.trim($(".keyword", this).val());
+            if (key == "") {
+              $(".keyword", this).val("鎼滅储");
+            }
+          },
+          function () {
+            var key = $.trim($(".keyword", this).val());
+            if (key == "鎼滅储") {
+              $(".keyword", this).val("");
+            }
+
+            if (
+              $(".keyword", this).val() == "" ||
+              $(".keyword", this).val() == "请输入关键字"
+            ) {
+              $(".keyword", this)
+                .removeClass("keyword-focus")
+                .stop()
+                .animate({ width: 0 });
+            } else {
+              $(".keyword", this).addClass("keyword-focus");
+            }
+            $(".keyword", this).trigger("blur");
+          }
+        );
+
+        $("#keyword").click(function () {
+          var key = $.trim($(this).val());
+          if (key == "鎼滅储") {
+            $(this).val("");
+          }
+        });
+      });
+    </script>
+  </head>
+
+  <body>
+    
+    <div class="wrapper" id="main">
+      <div class="inner">
+        <div
+          class="main display_flex justify-content_flex-justify align-items_center"
+        >
+          <div class="main_logo clearfix">
+            <a href="@V_URL[M:S271]">
+              <div class="page fl"></div>
+            </a>
+          </div>
+          
+          <div class="menu">
+            <div class="menu_box" frag="面板2">
+              <div
+                frag="窗口2" portletmode="simpleSudyNavi" configs="{'c1':'1','c7':'2','c4':'_self','c3':'6','c6':'0','c8':'2','c9':'0','c2':'1','c5':'2'}" contents="{'c2':'0', 'c1':'/新闻资讯,/媒体安大,/活力安大,/校园文化,/教育视点,/党的建设,/管理制度,/光影安大'}" 
+              >
+                <div frag="窗口内容">(导航)</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- banner- -->
+    <div class="wrapper" id="top-main-banner">
+      <div class="banner-content">
+        <div class="two_l fl" frag="面板4">
+          <div class="center-img" frag="窗口4" portletmode="tpl2_dtjt9" contents="{'c2':'1', 'c1':'/新闻资讯,/头条新闻'}">
+            <div frag="窗口内容">绑定JSON</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrapper" id="news">
+      <div class="inner">
+        <div class="news">
+          
+          <div class="news_two clearfix df-3">
+            
+            <div class="bg-f5-left">
+              <div class="bg-f5-left-top">
+                <div class="bg-f5-text-top">
+                  <span class="text-top">党委宣传部/新闻中心</span>
+                  <div class="text-bottom">
+                    学校党委主管宣传思想文化工作的
+                    职能部门，主要负责学校思想理论
+                    建设、对内对外新闻宣传、大学文
+                    化传承创新以及各类宣传阵地的管 理等。
+                  </div>
+                </div>
+                <div class="text-img">
+                  <img
+                    src="images/wechar.jpg"
+                    alt="图片"
+                  />
+                </div>
+              </div>
+              <div class="bg-f5-left-bottom">
+                  <h4 class="dwy_bhxmtlm_title">
+                    <span>媒体矩阵</span> <img src="img/foot_select_arrow.png"/>
+                  </h4>
+
+                  <ul class="dwy_bhxmtlm_title_ul" style="display: none">
+                    <li>
+                      <a
+                        href="http://weibo.com/ahu"
+                        target="_blank"
+                        ><img class="mtimg1" src="img/mt_icon3.png" /><img
+                          class="mtimg2"
+                          src="img/mt_icon3a.png"
+                      /></a>
+                    </li>
+
+                    <li>
+                      <a href="http://www.ahu.edu.cn/_upload/article/images/a5/d9/b74d0ca34547ae6fe6f82126eb09/10fbedda-d1c4-49d9-bdbf-bea5df175b80_s.jpg"
+                        ><img class="mtimg1" src="img/mt_icon2.png" /><img
+                          class="mtimg2"
+                          src="img/mt_icon2a.png"
+                      /></a>
+                    </li>
+
+                    <li>
+                      <a href="images/andaqq.jpg" 
+                        ><img class="mtimg1" src="img/mt_icon6.png" /><img
+                          class="mtimg2"
+                          src="img/mt_icon6a.png"
+                      /></a>
+                    </li>
+
+                    <li>
+                      <a href="images/andady.jpg"
+                        ><img class="mtimg1" src="img/mt_icon5.png" /><img
+                          class="mtimg2"
+                          src="img/mt_icon5a.png"
+                      /></a>
+                    </li>
+
+                    <li>
+                      <a href="bhxmtlm/Ins.htm" style="display: none"
+                        ><img class="mtimg1" src="img/mt_icon4.png" /><img
+                          class="mtimg2"
+                          src="img/mt_icon4a.png"
+                      /></a>
+                    </li>
+
+                    <li>
+                      <a style="display: none;"
+                        href="https://space.bilibili.com/118740958?from=search&amp;seid=12857636901119788467"
+                        target="_blank"
+                        ><img class="mtimg1" src="img/mt_icon1.png" /><img
+                          class="mtimg2"
+                          src="img/mt_icon1a.png"
+                      /></a>
+                    </li>
+                  </ul>
+              </div>
+            </div>
+            <div class="two_r" frag="面板5">
+              <div
+                frag="窗口5" portletmode="simpleNews" configs="{'c8':'1','c42':'320','c25':'320','c30':'0','c29':'1','c23':'1','c34':'300','c20':'0','c31':'0','c16':'1','c3':'6','c2':'序号,标题,发布时间','c27':'480','c43':'0','c17':'0','c5':'_blank','c24':'240','c32':'','c26':'1','c37':'1','c28':'640','c15':'0','c40':'1','c14':'1','c44':'0','c33':'500','c10':'50','c18':'yyyy-MM-dd','c36':'0','c1':'1','c6':'20','c19':'yyyy-MM-dd','c21':'0','c4':'1','c35':'-1:-1','c39':'300','c7':'1','c38':'100','c12':'0','c9':'0','c11':'1','c13':'200','c41':'240'}" contents="{'c2':'0', 'c1':'/新闻资讯'}"
+              >
+                <div class="tt clearfix">
+                  <div class="tit fl">
+                    <span class="title news-title" frag="标题">
+                      <span frag="标题内容">标题</span>
+                    </span>
+                  </div>
+                  <div class="more_btn" type="更多" frag="按钮">
+                    <span class="more_text" frag="按钮内容">&gt;&gt;&nbsp;更多</span>
+                  </div>
+                </div>
+                <div class="con">
+                  <div frag="窗口内容">(内容)</div>
+                </div>
+              </div>
+            </div>
+            <div class="bg-f5">
+              <div class="bg-f5-container">
+                <div class="bg-f5-item bg-f5-1b">
+                  <!-- <a href="http://ahsz.ahu.edu.cn/home">理论学习</a> -->
+                  <a href="http://jhsjk.people.cn/">理论学习</a>
+                </div>
+                <div class="bg-f5-item bg-f5-2b"><a href="http://news.ahu.edu.cn/4647/list.htm">党的建设</a></div>
+                <div class="bg-f5-item bg-f5-3b"><a href="http://news.ahu.edu.cn/4643/list.htm">媒体安大</a></div>
+                <div class="bg-f5-item bg-f5-4b"><a href="http://news.ahu.edu.cn/4644/list.htm">活力安大</a></div>
+                <div class="bg-f5-item bg-f5-5b"><a href="http://news.ahu.edu.cn/4648/list.htm">规章制度</a></div>
+                <div class="bg-f5-item bg-f5-6b"><a href="http://news.ahu.edu.cn/4649/list.htm">光影安大</a></div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="clear"></div>
+          <div class="news_four" frag="面板14" style="display: none">
+            <div
+              frag="窗口14" portletmode="simpleNews" configs="{'c8':'1','c42':'320','c25':'128','c30':'0','c29':'1','c22':'0','c23':'3','c34':'300','c20':'0','c31':'0','c16':'1','c3':'6','c2':'序号,标题,缩略图','c27':'480','c43':'0','c17':'0','c5':'_blank','c24':'122','c32':'','c26':'1','c37':'1','c28':'640','c15':'0','c40':'1','c14':'1','c44':'0','c33':'500','c10':'50','c18':'yyyy-MM-dd','c36':'0','c1':'1','c6':'15','c19':'yyyy-MM-dd','c21':'1','c4':'1','c35':'-1:-1','c39':'300','c7':'1','c38':'100','c12':'0','c9':'0','c11':'1','c13':'200','c41':'240'}" contents="{'c2':'0', 'c1':'/首页链接'}"
+            >
+              <div class="con">
+                <div frag="窗口内容">
+                  <!--[InfoCycleBegin]-->
+                  <div class="pic fl n{序号值}">{缩略图}</div>
+                  <!--[InfoCycleEnd]-->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="clear"></div>
+          <div class="news_five clearfix" style="display: none">
+            <div class="five_l fl clearfix">
+              <div class="five_l_l fl" frag="面板9">
+                <div
+                  frag="窗口9" portletmode="simpleNews" configs="{'c8':'1','c42':'320','c25':'320','c30':'0','c29':'1','c23':'1','c34':'300','c20':'0','c31':'0','c16':'1','c3':'4','c2':'序号,标题','c27':'480','c43':'0','c17':'0','c5':'_blank','c24':'240','c32':'','c26':'1','c37':'1','c28':'640','c15':'0','c40':'1','c14':'1','c44':'0','c33':'500','c10':'50','c18':'yyyy-MM-dd','c36':'0','c1':'1','c6':'15','c19':'yyyy-MM-dd','c21':'0','c4':'1','c35':'-1:-1','c39':'300','c7':'1','c38':'100','c12':'0','c9':'0','c11':'1','c13':'200','c41':'240','c22':'0'}" contents="{'c2':'0', 'c1':'/教育视点'}"
+                >
+                  <div class="tt clearfix">
+                    <div class="tit fl">
+                      <span class="title" frag="标题"
+                        ><span frag="标题内容">标题</span></span
+                      >
+                    </div>
+                    <div class="more_btn fr" type="更多" frag="按钮">
+                      <span class="more_text" frag="按钮内容"
+                        >&gt;&gt;更多</span
+                      >
+                    </div>
+                  </div>
+                  <div class="con">
+                    <div frag="窗口内容"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="five_l_r fr" frag="面板10">
+                <div
+                  frag="窗口10" portletmode="simpleNews" configs="{'c8':'1','c42':'320','c25':'320','c30':'0','c29':'1','c23':'1','c34':'300','c20':'0','c31':'0','c16':'1','c3':'4','c2':'序号,标题','c27':'480','c43':'0','c17':'0','c5':'_blank','c24':'240','c32':'','c26':'1','c37':'1','c28':'640','c15':'0','c40':'1','c14':'1','c44':'0','c33':'500','c10':'50','c18':'yyyy-MM-dd','c36':'0','c1':'1','c6':'16','c19':'yyyy-MM-dd','c21':'0','c4':'1','c35':'-1:-1','c39':'300','c7':'1','c38':'100','c12':'0','c9':'0','c11':'1','c13':'200','c41':'240','c22':'0'}" contents="{'c2':'0', 'c1':'/党的建设'}" 
+                >
+                  <div class="tt clearfix">
+                    <div class="tit fl">
+                      <span class="title" frag="标题"
+                        ><span frag="标题内容">标题</span></span
+                      >
+                    </div>
+                    <div class="more_btn fr" type="更多" frag="按钮">
+                      <span class="more_text" frag="按钮内容"
+                        >&gt;&gt;更多</span
+                      >
+                    </div>
+                  </div>
+                  <div class="con">
+                    <div frag="窗口内容"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="five_r fr" frag="面板11">
+              <div
+                frag="窗口11" portletmode="simpleNews" configs="{'c8':'1','c42':'320','c25':'320','c30':'0','c29':'1','c23':'1','c34':'300','c20':'0','c31':'0','c16':'1','c3':'4','c2':'序号,标题','c27':'480','c43':'0','c17':'0','c5':'_blank','c24':'240','c32':'','c26':'1','c37':'1','c28':'640','c15':'0','c40':'1','c14':'1','c44':'0','c33':'500','c10':'50','c18':'yyyy-MM-dd','c36':'0','c1':'1','c6':'16','c19':'yyyy-MM-dd','c21':'0','c4':'1','c35':'-1:-1','c39':'300','c7':'1','c38':'100','c12':'0','c9':'0','c11':'1','c13':'200','c41':'240','c22':'0'}" contents="{'c2':'0', 'c1':'/管理制度'}" 
+              >
+                <div class="tt clearfix">
+                  <div class="tit fl">
+                    <span class="title" frag="标题"
+                      ><span frag="标题内容">标题</span></span
+                    >
+                  </div>
+                  <div class="more_btn fr" type="更多" frag="按钮">
+                    <span class="more_text" frag="按钮内容">&gt;&gt;更多</span>
+                  </div>
+                </div>
+                <div class="con">
+                  <div frag="窗口内容"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div style="height: 40px;"></div>
+    <div class="wrapper" id="footer">
+      <div class="inner">
+        <div class="footer">
+          联系地址:(磬苑校区)合肥市经济开发区九龙路111号 邮编:230601
+          (龙河校区)合肥市肥西路3号 邮编:230039
+        </div>
+      </div>
+    </div>
+    <script src="js/SuperSlide.js"></script>
+    <script type="text/javascript" _ue_org_tagname="script">
+      $(function () {
+          $('.bg-f5-left-bottom').click(function(){
+              $('.dwy_bhxmtlm_title_ul').slideToggle()
+          })
+        $(".focus1").sudyfocus({
+          p: 4,
+          zWidth: 538,
+          zHeight: 304,
+          response: true,
+          isNavHover: true,
+          pagination: true,
+          title: {
+            active: true, // 是否显示标题
+            isAutoWidth: true, // 标题背景自动宽度
+            href: false, // 标题是否加文章链接
+          },
+          speed: 700,
+        });
+      });
+    </script>
+    <script type="text/javascript">
+      $(function () {
+        $(".scroll").sudyScroll({
+          width: 234, // 单元格宽度
+          height: 138, // 单元格高度
+          display: 4, // 显示几个单元
+          step: 1, // 每次交替增加几个单元，值不能大于display
+          dir: "x", // 交替方向，纵向为"y"，水平为"x"，默认为"y"纵向交替
+          auto: false, // 是否自动交替,默认为自动
+          speed: 500, // 交替速度
+          hoverPause: 5000, // 交替暂留时间
+          navigation: true, // 是否显示导航按钮
+          navTrigger: "click", // 导航按钮事件
+          pagination: true, // 是否显示索引按钮
+          pagTrigger: "mouseenter", //索引按钮事件
+        });
+      });
+    </script>
+    <script type="text/javascript">
+      $(function () {
+        $(".scroll1").sudyScroll({
+          width: 206, // 单元格宽度
+          height: 62, // 单元格高度
+          display: 4, // 显示几个单元
+          step: 1, // 每次交替增加几个单元，值不能大于display
+          dir: "x", // 交替方向，纵向为"y"，水平为"x"，默认为"y"纵向交替
+          auto: true, // 是否自动交替,默认为自动
+          speed: 500, // 交替速度
+          hoverPause: 5000, // 交替暂留时间
+          navigation: true, // 是否显示导航按钮
+          navTrigger: "click", // 导航按钮事件
+          pagination: true, // 是否显示索引按钮
+          pagTrigger: "mouseenter", //索引按钮事件
+        });
+      });
+      /*swfobject.registerObject("FlashID");
+swfobject.registerObject("FlashID");*/
+    </script>
+  </body>
+</html>

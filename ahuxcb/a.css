@@ -1,0 +1,99 @@
+.bg-f5-left {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.bg-f5-left .bg-f5-left-top {
+  height: 80%;
+  background: #f0b83e;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 5fr 3fr;
+}
+.bg-f5-left .bg-f5-left-top .text-img {
+  text-align: right;
+}
+.bg-f5-left .bg-f5-left-top .text-img img {
+  width: 100px;
+  height: 100px;
+}
+.bg-f5-left .bg-f5-left-top .bg-f5-text-top .text-top {
+  color: #06408c;
+  font-size: 22px;
+}
+.bg-f5-left .bg-f5-left-top .bg-f5-text-top .text-bottom {
+  margin-top: 10px;
+  color: black;
+  line-height: 22.5px;
+}
+.bg-f5-left .bg-f5-left-bottom {
+  margin-top: 10px;
+  height: 15%;
+  background: #8acee1;
+  cursor: pointer;
+}
+.bg-f5-left .bg-f5-left-bottom .dwy_bhxmtlm_title_ul {
+  position: absolute;
+  width: 380px;
+  padding: 7px 0;
+  background: #f5f5f5;
+  display: none;
+  transition: all 0.3s;
+}
+.bg-f5-left .bg-f5-left-bottom .dwy_bhxmtlm_title_ul:hover {
+  color: #409eff;
+}
+.bg-f5-left .bg-f5-left-bottom .dwy_bhxmtlm_title_ul li {
+  margin: 0 12px;
+  float: left;
+}
+.bg-f5-left .bg-f5-left-bottom .dwy_bhxmtlm_title_ul li a {
+  display: block;
+}
+.bg-f5-left .bg-f5-left-bottom .dwy_bhxmtlm_title_ul li a .mtimg2 {
+  display: none;
+}
+.bg-f5-left .bg-f5-left-bottom .dwy_bhxmtlm_title_ul li a:hover .mtimg1 {
+  display: none;
+}
+.bg-f5-left .bg-f5-left-bottom .dwy_bhxmtlm_title_ul li a:hover .mtimg2 {
+  display: block;
+}
+.bg-f5-left .bg-f5-left-bottom .dwy_bhxmtlm_title {
+  font-size: 16px;
+  cursor: pointer;
+  color: #fff;
+  text-align: center;
+  line-height: 33px;
+}
+.bg-f5-left .bg-f5-left-bottom .dwy_bhxmtlm_title img {
+  margin-left: 30px;
+}
+/**
+新闻列表
+——————————————————————————————————————————————————————————————
+ */
+.news .news_two .two_r {
+  width: 435px;
+  margin: 0 20px;
+}
+.news .news_two .two_r .wp_article_list .list_item {
+  height: 38px;
+  line-height: 38px;
+  border-bottom: #e9e7e5 1px dashed;
+}
+.news .news_two .two_r .wp_article_list .list_item .Article_Title a {
+  font-size: 16px;
+  transition: all 0.3s;
+}
+.news .news_two .two_r .wp_article_list .list_item .Article_Title a:hover {
+  color: #409eff;
+}
+#top-main-banner > div > div > div > div {
+  width: 1200px !important;
+  height: 440px !important;
+}
+.dtjt9_div_img img {
+  width: 1200px;
+  height: 440px;
+}

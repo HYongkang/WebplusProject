@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="style.css" type="text/css" rel="stylesheet" />
+<script src="extends/extends.js" type="text/javascript"></script>
+<title>无标题文档</title>
+</head>
+
+
+<body>
+
+<div class="wrapper" id="main">
+  <div class="inner">
+    <div class="main display_flex justify-content_flex-justify align-items_center">
+      <div class="main_logo clearfix">
+        <a href="@V_URL[M:S271]">
+        <div class="page fl"></div>
+        </a>
+      </div>
+      <!-- <div class="clear"></div> -->
+      <div class="menu">
+        <div class="menu_box" frag="面板2">
+          <div frag="窗口2" portletmode="simpleSudyNavi" configs="{'c1':'1','c7':'2','c4':'_self','c3':'6','c6':'0','c8':'2','c9':'0','c2':'1','c5':'2'}" contents="{'c2':'0', 'c1':'/新闻资讯,/媒体安大,/活力安大,/校园文化,/教育视点,/党的建设,/管理制度,/光影安大'}">
+            <div frag="窗口内容">(导航) </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="wrapper" dir="info" id="info">
+  <div class="inner">
+    <div class="info clearfix">
+      <div class="infonav fl">
+        <div  class="col_news_head" frag="面板23">
+          <ul  class="col_metas clearfix" frag="窗口23" portletmode="simpleColumnAttri">
+            <div frag="窗口内容" >
+              <li class="col_path"><span class="path_name"></span>{当前位置}</li>
+            </div>
+          </ul>
+        </div>
+        <div class="infobox" frag="面板31">
+          <div class="article" frag="窗口31" portletmode="simpleArticleAttri">
+            <div frag="窗口内容">              <h3 class="arti_title">{短标题}</h3>
+              <h1 class="arti_title">{标题}</h1>
+              <h3 class="arti_title">{副标题}</h3>
+              <p class="arti_metas"><span class="arti_update">发布时间：{发布时间}</span><span class="arti_views">浏览次数：{浏览次数}</span></p>
+              <div class="entry">
+                <div class="read">{内容}</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class=" wrapper  "   id="footer">
+  <div class="inner">
+    <div class="footer"> 联系地址:(磬苑校区)合肥市经济开发区九龙路111号 邮编:230601 (龙河校区)合肥市肥西路3号 邮编:230039 </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+  $(function () {
+    $(".entry").find("span").each(function () {
+        $(this).css({
+          "font-family": "Helvetica",
+          "line-height": "34px"
+        })
+
+      })
+      $(".entry p").css({
+        "font-family": "Helvetica",
+        "line-height": "34px",
+        "text-indent": "34px"
+      })
+  });
+
+  function showaa(obj)
+  {
+    //var obj_parent=obj.parentNode;
+    var obj_parent=obj.parentElement
+
+    if(obj_parent.className=="btn_show")
+    {
+      obj_parent.className="btn_hide";
+    }
+    else
+    {
+      obj_parent.className="btn_show";
+    }
+
+  }
+
+</script>
+</body>
+</html>
