@@ -603,18 +603,13 @@ a:hover {
 /**首页三列布局**/
 .mod {
   display: grid;
-  grid-template-columns: repeat(2, 50%);
+  grid-template-columns: repeat(3, 30%);
+  justify-content: space-between;
 }
 
-.mod1 {
+.mod1,.mod2,.mod3 {
   display: grid;
   grid-template-rows: repeat(2, 50%);
-}
-
-.mod2 {
-  display: grid;
-  grid-template-rows: repeat(3, 33.33333%);
-  margin-left: 100px;
 }
 
 .main3 .news_list {
