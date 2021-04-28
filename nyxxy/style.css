@@ -495,15 +495,14 @@ a:hover {
   display: inline-block;
   padding: 0 10px;
   line-height: 42px;
-  /* font-size: 16px; */
-  font-size: 12px;
+  font-size: 16px;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
 
 .nav .wp-menu .hover a.menu-link {
   display: inline-block;
-  padding: 0 15px;
+  padding: 0 10px;
   line-height: 42px;
   color: #ffffff;
   font-size: 16px;
@@ -511,7 +510,7 @@ a:hover {
 
 .nav .wp-menu .menu-item a.menu-link:hover {
   display: inline-block;
-  padding: 0 15px;
+  padding: 0 10px;
   line-height: 42px;
   color: #ffffff;
   font-size: 16px;
@@ -2752,7 +2751,7 @@ body:before {
   max-width: 115px;
 }
 .nav2 .nav2_left .wp-menu .menu-item{
-  padding-right: 8px;
+  padding-right: 10px;
 }
 .nav2 .nav2_left li :first-child{
   margin-top: 12px;
