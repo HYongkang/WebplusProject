@@ -2165,10 +2165,24 @@ fieldset {
 .searchbox {
   text-align: right;
   margin-top: 40px;
+  BORDER-BOTTOM: #a4bed4 1px solid;
+  BORDER-LEFT: #a4bed4 1px solid;
+  PADDING-BOTTOM: 0px;
+  PADDING-LEFT: 0px;
+  PADDING-RIGHT: 0px;
+  DISPLAY: inline-block;
+  WHITE-SPACE: nowrap;
+  /* BACKGROUND: #fff; */
+  FONT-SIZE: 12px;
+  BORDER-TOP: #a4bed4 1px solid;
+  BORDER-RIGHT: #a4bed4 1px solid;
+  PADDING-TOP: 0px;
+  line-height: 32px;
 }
 
 
 .wp-search form {
+  position: relative;
   display: block;
 }
 
@@ -2183,10 +2197,12 @@ fieldset {
   padding: 4px 0;
   line-height: 22px;
   background: none;
-  color: #FFFFFF;
+  /* color: #FFFFFF; */
+  color: grey;
   font-size: 14px;
   border: 0;
   outline: 0;
+  border: hidden;
 }
 
 .wp-search .search-btn {
@@ -2199,7 +2215,7 @@ fieldset {
 
 .wp-search .search-btn input.search-submit {
   width: 32px;
-  height: 31px;
+  height: 30px;
   border: 0;
   outline: 0;
   background: #FFFFFF url(images/sous.png) no-repeat center;

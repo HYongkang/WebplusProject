@@ -5,6 +5,7 @@
         type: "slide,aside",
       },
     });
+    $(".col_path").find(".path_name").next().text("Homepage");
     /*友情链接下拉*/
     $(".botlinks").each(function (index, el) {
       $(el).find(".links-wrap").hover(function () {

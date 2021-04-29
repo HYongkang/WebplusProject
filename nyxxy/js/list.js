@@ -1,4 +1,8 @@
 $(function(){
+	/**底部链接部分空ul不占空间*/
+	$("li.sub-item").find("ul").css({
+		"display": "none",
+	  })
 	/*栏目图片高度*/
 	var $lbannerImg = $(".l-banner").find("img");
 	var imgsrc = $lbannerImg.attr("src");

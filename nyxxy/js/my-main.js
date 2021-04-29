@@ -4,6 +4,10 @@ new SDAPP({
     type: "aside",
   },
 });
+/**底部链接部分空ul不占空间*/
+$("li.sub-item").find("ul").css({
+  "display": "none",
+})
 $(".dtjt8_div_img").css({
   "margin": "0 auto",
   "width": $(window).width(),
